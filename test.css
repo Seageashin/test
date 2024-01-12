@@ -1,0 +1,86 @@
+.body {
+        background-color: black;
+        width: 2400px;
+        height: 3000px;
+    }
+
+    .sc {
+        background-color: black;
+        width: 1400px;
+        height: 2000px;
+
+        margin-top: 700px;
+        margin-bottom: 1500px;
+        margin-right: 11px;
+        margin-left: 11x;
+    }
+
+    .hh {
+        color: azure;
+        text-align: left;
+        margin: 50px;
+    }
+
+    .title_star {
+        color: azure;
+    }
+
+    .warning_msg {
+        color: azure;
+    }
+
+    .form-control {
+        width: 600px;
+        background-color: rgb(206, 198, 198);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    #save {
+        margin-left: 536px;
+        background-color: rgb(206, 61, 61);
+        color: aliceblue;
+        border-radius: 5px;
+
+    }
+
+    .rating {
+        position: relative;
+        width: 200px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .3em;
+        padding: 5px;
+        overflow: hidden;
+
+
+
+
+
+    }
+
+    .rating__result {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-10px) translateX(-5px);
+        z-index: -9;
+        font: 3em Arial, Helvetica, sans-serif;
+        color: #ebebeb8e;
+        pointer-events: none;
+    }
+
+    .rating__star {
+        font-size: 1.3em;
+        cursor: pointer;
+        color: #dabd18b2;
+        transition: filter linear .3s;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .rating__star:hover {
+        filter: drop-shadow(1px 1px 4px gold);
+    }
